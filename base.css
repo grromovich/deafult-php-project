@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.input {
+    width: 220px;
+    height: 25px;
+    border: black solid 1.3px;
+    border-radius: 4px;
+    padding-left: 6px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.btn {
+    padding: 5px 8px 5px 8px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.error {
+    font-size: 14px;
+    color: rgb(255, 0, 0);
+}
+
+.container {
+    width: 85%;
+    margin: 25px auto 0px auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    font-weight: 500;
+}
